@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -e ts,js,json,mustache dist/server.js",
-    "watch-ts": "tsc -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json src/server.ts"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.6.5",
+    "ts-node": "^10.9.1",
     "validator": "^13.6.0"
   },
   "devDependencies": {
